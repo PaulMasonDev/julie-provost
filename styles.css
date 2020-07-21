@@ -83,3 +83,19 @@ img {
   padding: 0 30px;
   transition: 0.5s ease-in;
 }
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  padding: 30px 30px 20px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+.navbar li:hover {
+  background-color: #15B6B8;
+  transition: 1.5s;
+}
